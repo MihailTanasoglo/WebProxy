@@ -1,12 +1,10 @@
 ﻿using CarAPI.Repositories;
 using CarAPI.Services;
 using Common.Models;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+
 
 namespace CarAPI.Controllers
 {
@@ -94,7 +92,7 @@ namespace CarAPI.Controllers
             var car = _carRepository.GetRecordById(id);
             if (car == null)
             {
-                return BadRequest("Car not found");
+                return BadRequest("Mashina not found");
             }
             _carRepository.DeleteRecord(id);
 
@@ -103,11 +101,5 @@ namespace CarAPI.Controllers
 
                 return Ok("Deleted: " + id);
         }
-
-
-
-
-
-
     }
 }
