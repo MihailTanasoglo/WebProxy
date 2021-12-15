@@ -8,7 +8,6 @@ namespace CarAPI.Tests
     public class EdgeDriverTest
     {
 
-
         private EdgeDriver _driver;
 
         [TestInitialize]
