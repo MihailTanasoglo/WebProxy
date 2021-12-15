@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy", "Proxy\Proxy.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SyncNode", "SyncNode\SyncNode.csproj", "{873F3E5B-12BE-4F3A-B931-F8037A43D856}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarAPI.Tests", "CarAPI.Tests\CarAPI.Tests.csproj", "{F26BFECA-CF54-4AA2-9CAC-4EDFAAEABD14}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarAPITest", "CarAPITest\CarAPITest.csproj", "{E9939526-7C45-4D0F-9D8E-BA53B02AD6C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{873F3E5B-12BE-4F3A-B931-F8037A43D856}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{873F3E5B-12BE-4F3A-B931-F8037A43D856}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{873F3E5B-12BE-4F3A-B931-F8037A43D856}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F26BFECA-CF54-4AA2-9CAC-4EDFAAEABD14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F26BFECA-CF54-4AA2-9CAC-4EDFAAEABD14}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F26BFECA-CF54-4AA2-9CAC-4EDFAAEABD14}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F26BFECA-CF54-4AA2-9CAC-4EDFAAEABD14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9939526-7C45-4D0F-9D8E-BA53B02AD6C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9939526-7C45-4D0F-9D8E-BA53B02AD6C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9939526-7C45-4D0F-9D8E-BA53B02AD6C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9939526-7C45-4D0F-9D8E-BA53B02AD6C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
