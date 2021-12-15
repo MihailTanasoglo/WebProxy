@@ -55,3 +55,12 @@ jobs:
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1FEB8EAC3C494760885B16FC2A7288B7 }}
           package: .
+
+      - name: Deploy to Azure Web App2
+        id: deploy-to-webapp2
+        uses: azure/webapps-deploy@v2
+        with:
+          app-name: 'UTM-PAD-Lab3-2'
+          slot-name: 'Production'
+          publish-profile: ${{ secrets.WEBPROXY }}
+          package: .
