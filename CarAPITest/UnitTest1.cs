@@ -11,5 +11,11 @@ namespace CarAPITest
             Assert.Equal(4, 2+2);
 
         }
+        [Fact]
+        public void Test2()
+        {
+            Assert.Equal(5, 3 + 2);
+
+        }
     }
 }
